@@ -22,13 +22,12 @@ export default function Hero() {
   });
 
   return (
-    <div className="w-full">
-      <div className="w-full flex flex-col items-center justify-center md:flex-row h-full">
+      <div className="w-full flex items-center justify-center min-h-screen">
         <div className="relative w-full max-w-lg">
-          <div className="absolute top-0 -left-4 w-72 h-72 bg-emerald-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
-          <div className="absolute top-0 -right-4 w-72 h-72 bg-gray-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
-          <div className="absolute -bottom-8 left-20 w-72 h-72 bg-gray-200 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000"></div>
-          <div className="w-full text-center z-10 flex flex-col justify-center items-center bg-white">
+          <div className="absolute top-0 left-8 w-32 h-32 bg-emerald-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
+          <div className="absolute top-0 right-8 w-32 h-32 bg-gray-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
+          <div className="absolute -bottom-4 -left-20 w-32 h-32 bg-gray-200 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000"></div>
+          <div className="w-full text-center flex flex-col justify-center items-center bg-white">
             <motion.div
               initial={{ opacity: 0, scale: 0.5 }}
               animate={{ opacity: 1, scale: 1 }}
@@ -42,7 +41,6 @@ export default function Hero() {
                   restDelta: 0.001,
                 },
               }}
-              className="relative"
             >
               <div className="space-y-3 text-gray-500 mt-20 md:mt-0">
                 <h1 className=" text-2xl">Hi,</h1>
@@ -114,6 +112,5 @@ export default function Hero() {
           </div>
         </div>
       </div>
-    </div>
   );
 }
