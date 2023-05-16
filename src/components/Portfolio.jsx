@@ -51,6 +51,7 @@ export default function Portfolio() {
                         height={50}
                         alt="plus"
                         className="block h-auto w-auto rounded-2xl"
+                        priority={true}
                       />
                       <p className="text-gray-500 text-xs font-bold mt-5">
                         {data.category}
@@ -68,6 +69,7 @@ export default function Portfolio() {
                           height={50}
                           alt="plus"
                           className="block h-8 w-8 rounded-2xl"
+                          priority={true}
                         />
                         <Image
                           src={data.backend}
@@ -75,6 +77,7 @@ export default function Portfolio() {
                           height={50}
                           alt="plus"
                           className="block h-8 w-8 rounded-2xl"
+                          priority={true}
                         />
                       </div>
                     </div>

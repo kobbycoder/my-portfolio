@@ -88,6 +88,7 @@ export default function About() {
                   height={50}
                   alt="plus"
                   className="block h-24 w-24"
+                  priority={true}
                 />
               </div>
               <p>Front-end</p>
@@ -100,6 +101,7 @@ export default function About() {
                   height={50}
                   alt="plus"
                   className="block h-24 w-24"
+                  priority={true}
                 />
               </div>
               <p>Back-end</p>
@@ -112,6 +114,7 @@ export default function About() {
                   height={50}
                   alt="plus"
                   className="block h-24 w-24"
+                  priority={true}
                 />
               </div>
               <p>Mobile Application</p>

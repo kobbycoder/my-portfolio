@@ -3,7 +3,6 @@ import React from "react";
 import twitter from "../assets/twitter.png";
 import linkedIn from "../assets/linkedin.png";
 import email from "../assets/email.png";
-import design from "../assets/design.png";
 import github from "../assets/github.png";
 import Image from "next/image";
 import { motion } from "framer-motion";
@@ -77,6 +76,7 @@ export default function Hero() {
                       height={50}
                       alt="plus"
                       className="block h-5 w-auto"
+                      priority={true}
                     />
                   </a>
                   <a href="https://twitter.com/AlexanderOsman6" target="_blank">
@@ -86,6 +86,7 @@ export default function Hero() {
                       height={50}
                       alt="plus"
                       className="block h-5 w-auto"
+                      priority={true}
                     />
                   </a>
                   <a href="https://github.com/kobbycoder" target="_blank">
@@ -95,6 +96,7 @@ export default function Hero() {
                       height={50}
                       alt="plus"
                       className="block h-5 w-auto"
+                      priority={true}
                     />
                   </a>
                   <a href="mailto:developer@kobbycoder.com" target="_blank">
@@ -104,6 +106,7 @@ export default function Hero() {
                       height={50}
                       alt="plus"
                       className="block h-5 w-auto"
+                      priority={true}
                     />
                   </a>
                 </div>

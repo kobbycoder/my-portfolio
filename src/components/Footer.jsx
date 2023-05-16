@@ -17,6 +17,7 @@ export default function Footer() {
           height={50}
           alt="plus"
           className="block h-32 w-32"
+          priority={true}
         />
       </div>
       <hr className="md:w-1 md:h-24 h-1 w-48 mx-auto my-4 bg-gray-500 border-0 rounded md:my-10" />
@@ -40,6 +41,7 @@ export default function Footer() {
               height={50}
               alt="plus"
               className="block h-4 w-4"
+              priority={true}
             />
             <p>+233 59 335 2839</p>
           </div>
@@ -63,6 +65,7 @@ export default function Footer() {
           height={50}
           alt="plus"
           className="block h-12 w-12"
+          priority={true}
         />
 
         <div className="flex space-x-4">
@@ -76,6 +79,7 @@ export default function Footer() {
               height={50}
               alt="plus"
               className="block h-5 w-auto"
+              priority={true}
             />
           </a>
           <a href="https://twitter.com/AlexanderOsman6" target="_blank">
@@ -85,6 +89,7 @@ export default function Footer() {
               height={50}
               alt="plus"
               className="block h-5 w-auto"
+              priority={true}
             />
           </a>
         </div>
