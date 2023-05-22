@@ -58,7 +58,7 @@ export default function Hero() {
                     Let's talk
                   </a>
                   <a
-                    href="cv-q.pdf"
+                    href="cv-2023.pdf"
                     target="_blank"
                     className="text-gray-500 border-gray-500 border p-4 rounded-lg"
                   >
