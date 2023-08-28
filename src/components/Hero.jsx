@@ -57,13 +57,6 @@ export default function Hero() {
                   <a href="/contact" className="bg-emerald-500 p-4 rounded-lg">
                     Let's talk
                   </a>
-                  <a
-                    href="cv-2023.pdf"
-                    target="_blank"
-                    className="text-gray-500 border-gray-500 border p-4 rounded-lg"
-                  >
-                    Download CV
-                  </a>
                 </div>
                 <div className="flex space-x-4 justify-center">
                   <a
